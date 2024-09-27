@@ -1,0 +1,233 @@
+
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-family: optima;
+    /* border: 2px solid red; */
+}
+
+.logo {
+    width: auto;
+    height: 45px;
+    position: absolute;
+    margin-top: 0px;
+}
+
+header h1 {
+    display: inline;
+    margin: 200px;
+
+
+}
+
+header h1::after {
+    content: "\2665";
+    /* Unicode cho ký hiệu trái tim */
+    color: red;
+    /* Màu sắc của trái tim */
+    margin-left: 5px;
+    /* Khoảng cách giữa chữ và trái tim */
+}
+
+.search-bar {
+    display: inline-block;
+
+    margin-left: 500px;
+    padding-left: 30px;
+
+}
+
+.search-bar input {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.search-bar button {
+    width: 50px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: gray;
+    cursor: pointer;/
+}
+
+header h2 {
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-left: 200px;
+    height: 60px;
+
+}
+
+.content1
+{
+    width: 678px;
+    height:400px;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-top: 15px;
+    background-image: url(h4.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position:center ;
+    
+ 
+}
+
+.content1 h2
+{
+    font-weight: 500;
+}
+
+.content2
+{
+    width: 340px;
+    height: 400px;
+    /* background-color: green; */
+    display: inline-block;
+    position: relative;
+    top:25px;
+    
+}
+
+.content2 h4::after
+{
+content: "\2665";
+color: red;
+margin-left: 5px;
+}
+
+.content3
+{
+    width: 800px;
+    height: 400px;
+    /* background-color: yellow; */
+    margin-top:50px;
+    margin-left: 300px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.content4
+{
+    width: 300px;
+    height: 200px;
+    /* background-color: red; */
+   position: relative;
+   left: 1110px;
+   bottom: 400px;
+   
+}
+
+.content5
+{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: blue; */
+    margin-left: 400px;
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+   
+    
+   
+}
+
+.content5 .button1
+{
+    background-color:darkblue; /* Màu nền */
+    font-weight: bolder;
+            color: white; /* Màu chữ */
+            padding: 15px 32px; /* Padding */
+            text-align: center; /* Căn giữa */
+            text-decoration: none; /* Không gạch chân */
+            display: inline-block; /* Để nó hiển thị như một nút */
+            font-size: 20px; /* Kích thước chữ */
+            margin: 4px 2px; /* Khoảng cách giữa các nút */
+            cursor: pointer; /* Đổi con trỏ chuột */
+            border: none; /* Không có viền */
+            border-radius: 5px; /* Bo góc */
+           
+}
+
+.content5 .button1:hover
+{
+    color: white;
+    background-color: black;
+    
+}
+
+.content5 .button1:active
+{
+    background-color: green;
+}
+
+
+.content6
+{
+    padding-top: 10px;
+    background-color: black;
+    width: 360px;
+    height: 300px;
+    position: relative;
+    left: 1110px;
+    bottom: 500px;
+    /* text-align: center; */
+    padding-left: 20px;
+}
+
+.content6 .search-bar1 button {
+    width: 80px;
+    height: 27px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    
+}
+
+.body_1
+{
+    /* background-color: aquamarine; */
+    height: 1200px;
+}
+
+footer {
+   
+    margin: 0;
+    padding: 0;
+    height: 80vh; /* Chiều cao toàn bộ viewport */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Đều khoảng cách giữa các cột */
+    width: 80%; /* Chiều rộng của container */
+    gap: 30px;
+}
+
+.column {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%; /* Chiều rộng của mỗi cột */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+}
