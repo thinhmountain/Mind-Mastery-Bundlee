@@ -75,8 +75,8 @@ header h2 {
     font-family: 'Times New Roman', Times, serif;
     padding-left: 30px;
     padding-top: 15px;
-    background-image: url(h4.jpg);
-    color: black;
+    background-image: url(h5.jpg);
+    color: white;
     background-repeat: no-repeat;
     background-size:cover ;
     background-position:center ;
@@ -209,14 +209,16 @@ footer {
     display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc */
-    background-color: #f4f4f4;
+    background: linear-gradient(to right,#033E8C,#023E73,#79ACD9);
+    
 }
 
 .container {
     display: flex;
     justify-content: space-between; /* Đều khoảng cách giữa các cột */
-    width: 80%; /* Chiều rộng của container */
+    width: 85%; /* Chiều rộng của container */
     gap: 30px;
+   
 }
 
 .column {
